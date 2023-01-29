@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+  text-decoration: none; 
+  font-family: Montserrat, sans-serif;
+}
+  
+
+  header{
+    display: flex;
+    line-height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(161, 0, 0);
+}
+#logo{
+    color: white;
+    margin-left: 8vw;
+    
+}
+#burguer{
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-right: 3vw;
+}
+#burguer:hover{
+
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+nav #list{
+    color: white;
+    display: none;
+    background-color: blue;
+    position: absolute;  
+    }
+
+
